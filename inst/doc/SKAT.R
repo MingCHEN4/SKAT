@@ -1,5 +1,6 @@
 ### R code from vignette source 'SKAT.Rnw'
 ### Encoding: UTF-8
+## self-revised Ming on 20/03/2020
 
 ###################################################
 ### code chunk number 1: data
