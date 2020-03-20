@@ -1,6 +1,6 @@
 ### R code from vignette source 'SKAT.Rnw'
 ### Encoding: UTF-8
-## self-revised Ming on 20/03/2020
+
 
 ###################################################
 ### code chunk number 1: data
@@ -15,9 +15,6 @@ attach(SKAT.example)
 ###################################################
 ### code chunk number 2: SKAT1
 ###################################################
-# continuous trait 
-obj<-SKAT_Null_Model(y.c ~ X, out_type="C")
-SKAT(Z, obj)$p.value
 
 # dichotomous trait 
 obj<-SKAT_Null_Model(y.b ~ X, out_type="D")
